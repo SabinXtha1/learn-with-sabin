@@ -889,3 +889,6 @@ animation-delay: 1.5s;
 .container2 .contactinfo{
     padding-left:2vw;
 }
+.text a p:hover{
+    color: rgb(197, 72, 72);
+}
