@@ -935,4 +935,10 @@ img{
     animation: none;
     -webkit-animation: none;
 }
-
+.text h3,p{
+    
+        animation:scroll;
+        -webkit-animation:scroll;
+        animation-timeline: view(100% auto);
+    
+}
