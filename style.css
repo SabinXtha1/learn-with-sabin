@@ -916,7 +916,7 @@ to{
     -o-transform: translateY(0) scale(1);
 }
 }
-h1,h2,p,a,h3,h4{
+h1,h2,p,h3,h4{
     animation: scroll;
     -webkit-animation:;
     animation-timeline: view(85% auto);
@@ -930,3 +930,8 @@ img{
     -webkit-animation:;
     animation-timeline: view(95% auto);
 }
+footer h7{
+      text-align: center;
+      font-size: 10px;
+      
+} 
