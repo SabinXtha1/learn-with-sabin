@@ -935,4 +935,5 @@ footer h7{
 footer{
     animation: none;
     -webkit-animation: none;
-}
+} h7{
+text-align:center;}
