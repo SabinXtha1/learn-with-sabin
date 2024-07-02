@@ -892,48 +892,10 @@ animation-delay: 1.5s;
 .text a p:hover{
     color: rgb(197, 72, 72);
 }
-.container .section-common-heading{
-    animation: scroll;
-    -webkit-animation:;
-    animation-timeline: view(90% auto);
-}
-@keyframes scroll{
-    from{
-        opacity: 0;
-        transform: translateY(200px) scale(0.3);
-        -webkit-transform: translateY(200px) scale(0.3);
-        -moz-transform: translateY(200px) scale(0.3);
-        -ms-transform: translateY(200px) scale(0.3);
-        -o-transform: translateY(200px) scale(0.3);
 
-}
-to{
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    -webkit-transform: translateY(0) scale(1);
-    -moz-transform: translateY(0) scale(1);
-    -ms-transform: translateY(0) scale(1);
-    -o-transform: translateY(0) scale(1);
-}
-}
-h1,h2,p,h3,h4{
-    animation: scroll;
-    -webkit-animation:;
-    animation-timeline: view(85% auto);
-}
-
-img{
-    animation: scroll;
-    -webkit-animation:;
-    animation-timeline: view(95% auto);
-}
 footer h7{
       text-align: center;
       font-size: 10px;
       
 } 
-footer{
-    animation: none;
-    -webkit-animation: none;
-} h7{
-text-align:center;}
+
