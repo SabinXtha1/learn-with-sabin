@@ -935,3 +935,7 @@ footer h7{
       font-size: 10px;
       
 } 
+footer{
+    animation: none;
+    -webkit-animation: none;
+}
