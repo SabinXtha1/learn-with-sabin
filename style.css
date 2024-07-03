@@ -942,3 +942,12 @@ img{
         animation-timeline: view(100% auto);
     
 }
+.gap{
+    display: none;
+}
+
+@media (max-width:720px) {
+     .gap{
+        display:inline;
+     }
+}
