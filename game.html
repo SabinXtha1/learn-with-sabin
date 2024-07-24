@@ -206,13 +206,13 @@
       ) {
         backP();
         if ((turn = true)) {
-          inner.innerHTML = `WINNER IS ${play}`;
+          inner.innerHTML = `WINNER IS X`;
           setTimeout(() => {
             gif();
           }, 1000);
           winAd();
         } else {
-          inner.innerHTML = `WINNER IS ${play}`;
+          inner.innerHTML = `WINNER IS X`;
           setTimeout(() => {
             gif();
           }, 1000);
@@ -230,7 +230,7 @@
         array[7] != null &&
         array[8] != null
       ) {
-        inner.innerHTML = "DRAW";
+        inner.innerHTML = "Winner is X";
         darw();
       }
     }
